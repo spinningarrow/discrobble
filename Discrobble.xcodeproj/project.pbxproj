@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47192982486A575000C3595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47192972486A575000C3595 /* AppDelegate.swift */; };
+		C471929A2486A575000C3595 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47192992486A575000C3595 /* SceneDelegate.swift */; };
+		C471929C2486A575000C3595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C471929B2486A575000C3595 /* ContentView.swift */; };
+		C471929E2486A577000C3595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C471929D2486A577000C3595 /* Assets.xcassets */; };
+		C47192A12486A577000C3595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47192A02486A577000C3595 /* Preview Assets.xcassets */; };
+		C47192A42486A577000C3595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47192A22486A577000C3595 /* LaunchScreen.storyboard */; };
+		C47192AF2486A577000C3595 /* DiscrobbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47192AE2486A577000C3595 /* DiscrobbleTests.swift */; };
+		C47192BA2486A577000C3595 /* DiscrobbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47192B92486A577000C3595 /* DiscrobbleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47192AB2486A577000C3595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C471928C2486A575000C3595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47192932486A575000C3595;
+			remoteInfo = Discrobble;
+		};
+		C47192B62486A577000C3595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C471928C2486A575000C3595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C47192932486A575000C3595;
+			remoteInfo = Discrobble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C47192942486A575000C3595 /* Discrobble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discrobble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47192972486A575000C3595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C47192992486A575000C3595 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C471929B2486A575000C3595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C471929D2486A577000C3595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C47192A02486A577000C3595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C47192A32486A577000C3595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C47192A52486A577000C3595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47192AA2486A577000C3595 /* DiscrobbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscrobbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47192AE2486A577000C3595 /* DiscrobbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscrobbleTests.swift; sourceTree = "<group>"; };
+		C47192B02486A577000C3595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47192B52486A577000C3595 /* DiscrobbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscrobbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47192B92486A577000C3595 /* DiscrobbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscrobbleUITests.swift; sourceTree = "<group>"; };
+		C47192BB2486A577000C3595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47192912486A575000C3595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47192A72486A577000C3595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47192B22486A577000C3595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C471928B2486A575000C3595 = {
+			isa = PBXGroup;
+			children = (
+				C47192962486A575000C3595 /* Discrobble */,
+				C47192AD2486A577000C3595 /* DiscrobbleTests */,
+				C47192B82486A577000C3595 /* DiscrobbleUITests */,
+				C47192952486A575000C3595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47192952486A575000C3595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47192942486A575000C3595 /* Discrobble.app */,
+				C47192AA2486A577000C3595 /* DiscrobbleTests.xctest */,
+				C47192B52486A577000C3595 /* DiscrobbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47192962486A575000C3595 /* Discrobble */ = {
+			isa = PBXGroup;
+			children = (
+				C47192972486A575000C3595 /* AppDelegate.swift */,
+				C47192992486A575000C3595 /* SceneDelegate.swift */,
+				C471929B2486A575000C3595 /* ContentView.swift */,
+				C471929D2486A577000C3595 /* Assets.xcassets */,
+				C47192A22486A577000C3595 /* LaunchScreen.storyboard */,
+				C47192A52486A577000C3595 /* Info.plist */,
+				C471929F2486A577000C3595 /* Preview Content */,
+			);
+			path = Discrobble;
+			sourceTree = "<group>";
+		};
+		C471929F2486A577000C3595 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C47192A02486A577000C3595 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C47192AD2486A577000C3595 /* DiscrobbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C47192AE2486A577000C3595 /* DiscrobbleTests.swift */,
+				C47192B02486A577000C3595 /* Info.plist */,
+			);
+			path = DiscrobbleTests;
+			sourceTree = "<group>";
+		};
+		C47192B82486A577000C3595 /* DiscrobbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C47192B92486A577000C3595 /* DiscrobbleUITests.swift */,
+				C47192BB2486A577000C3595 /* Info.plist */,
+			);
+			path = DiscrobbleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47192932486A575000C3595 /* Discrobble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47192BE2486A577000C3595 /* Build configuration list for PBXNativeTarget "Discrobble" */;
+			buildPhases = (
+				C47192902486A575000C3595 /* Sources */,
+				C47192912486A575000C3595 /* Frameworks */,
+				C47192922486A575000C3595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Discrobble;
+			productName = Discrobble;
+			productReference = C47192942486A575000C3595 /* Discrobble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47192A92486A577000C3595 /* DiscrobbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47192C12486A577000C3595 /* Build configuration list for PBXNativeTarget "DiscrobbleTests" */;
+			buildPhases = (
+				C47192A62486A577000C3595 /* Sources */,
+				C47192A72486A577000C3595 /* Frameworks */,
+				C47192A82486A577000C3595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47192AC2486A577000C3595 /* PBXTargetDependency */,
+			);
+			name = DiscrobbleTests;
+			productName = DiscrobbleTests;
+			productReference = C47192AA2486A577000C3595 /* DiscrobbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C47192B42486A577000C3595 /* DiscrobbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47192C42486A577000C3595 /* Build configuration list for PBXNativeTarget "DiscrobbleUITests" */;
+			buildPhases = (
+				C47192B12486A577000C3595 /* Sources */,
+				C47192B22486A577000C3595 /* Frameworks */,
+				C47192B32486A577000C3595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47192B72486A577000C3595 /* PBXTargetDependency */,
+			);
+			name = DiscrobbleUITests;
+			productName = DiscrobbleUITests;
+			productReference = C47192B52486A577000C3595 /* DiscrobbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C471928C2486A575000C3595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Sahil Bajaj";
+				TargetAttributes = {
+					C47192932486A575000C3595 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C47192A92486A577000C3595 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C47192932486A575000C3595;
+					};
+					C47192B42486A577000C3595 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C47192932486A575000C3595;
+					};
+				};
+			};
+			buildConfigurationList = C471928F2486A575000C3595 /* Build configuration list for PBXProject "Discrobble" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C471928B2486A575000C3595;
+			productRefGroup = C47192952486A575000C3595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47192932486A575000C3595 /* Discrobble */,
+				C47192A92486A577000C3595 /* DiscrobbleTests */,
+				C47192B42486A577000C3595 /* DiscrobbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47192922486A575000C3595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47192A42486A577000C3595 /* LaunchScreen.storyboard in Resources */,
+				C47192A12486A577000C3595 /* Preview Assets.xcassets in Resources */,
+				C471929E2486A577000C3595 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47192A82486A577000C3595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47192B32486A577000C3595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47192902486A575000C3595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47192982486A575000C3595 /* AppDelegate.swift in Sources */,
+				C471929A2486A575000C3595 /* SceneDelegate.swift in Sources */,
+				C471929C2486A575000C3595 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47192A62486A577000C3595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47192AF2486A577000C3595 /* DiscrobbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47192B12486A577000C3595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47192BA2486A577000C3595 /* DiscrobbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47192AC2486A577000C3595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47192932486A575000C3595 /* Discrobble */;
+			targetProxy = C47192AB2486A577000C3595 /* PBXContainerItemProxy */;
+		};
+		C47192B72486A577000C3595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C47192932486A575000C3595 /* Discrobble */;
+			targetProxy = C47192B62486A577000C3595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47192A22486A577000C3595 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47192A32486A577000C3595 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47192BC2486A577000C3595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C47192BD2486A577000C3595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47192BF2486A577000C3595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Discrobble/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Discrobble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sahil.Discrobble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C47192C02486A577000C3595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Discrobble/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Discrobble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sahil.Discrobble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C47192C22486A577000C3595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscrobbleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sahil.DiscrobbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discrobble.app/Discrobble";
+			};
+			name = Debug;
+		};
+		C47192C32486A577000C3595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscrobbleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sahil.DiscrobbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discrobble.app/Discrobble";
+			};
+			name = Release;
+		};
+		C47192C52486A577000C3595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscrobbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sahil.DiscrobbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Discrobble;
+			};
+			name = Debug;
+		};
+		C47192C62486A577000C3595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DiscrobbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sahil.DiscrobbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Discrobble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C471928F2486A575000C3595 /* Build configuration list for PBXProject "Discrobble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47192BC2486A577000C3595 /* Debug */,
+				C47192BD2486A577000C3595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47192BE2486A577000C3595 /* Build configuration list for PBXNativeTarget "Discrobble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47192BF2486A577000C3595 /* Debug */,
+				C47192C02486A577000C3595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47192C12486A577000C3595 /* Build configuration list for PBXNativeTarget "DiscrobbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47192C22486A577000C3595 /* Debug */,
+				C47192C32486A577000C3595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47192C42486A577000C3595 /* Build configuration list for PBXNativeTarget "DiscrobbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47192C52486A577000C3595 /* Debug */,
+				C47192C62486A577000C3595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C471928C2486A575000C3595 /* Project object */;
+}
